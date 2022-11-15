@@ -3,11 +3,11 @@ Implementation for **Contrast-Reconstruction Representation Learning for Self-Su
 
 
 ## Network Architecture
-![image](https://github.com/Picasso-Wang/CRRL/blob/main/network_architecture.jpg)
+![image](https://github.com/Picasso-Wang/CRRL/blob/main/images/network_architecture.jpg)
 <br>
 
 ## Visualization
-![image](https://github.com/Picasso-Wang/CRRL/blob/main/visualization.jpg)
+![image](https://github.com/Picasso-Wang/CRRL/blob/main/images/visualization.jpg)
 <br>
 
 ## Requirements
