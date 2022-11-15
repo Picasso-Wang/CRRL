@@ -5,7 +5,7 @@ Implementation for **Contrast-Reconstruction Representation Learning for Self-Su
 ![image](https://github.com/Picasso-Wang/CRRL/blob/main/network_architecture.jpg)
 
 ## Visualization
-
+![image](https://github.com/Picasso-Wang/CRRL/blob/main/visualization.jpg)
 
 ## Requirements
 Python 3.6+ <br>
