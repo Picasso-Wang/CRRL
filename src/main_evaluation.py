@@ -365,16 +365,12 @@ def knn(args, encoder_dict):
 
 
 if __name__ == '__main__':
-    if_do_pretrain = False
+    if_do_pretrain = True
     if if_do_pretrain:
         pretrain_checkpoint = main()
     else:
-        pretrain_checkpoint_path = '/root/wp/action/results/20220607/ntu_models/ntu_xsub_teach_stud_hidden256_layer2_lr0.05_bsz32_epoch60_lambda_ts0.05/epoch59state.pth'
+        pretrain_checkpoint_path = '/root/wp/action/results/20220607/ntu_models/ntu_xsub_teach_stud_hidden256_layer2_lr0.05_bsz32_epoch60/epoch59state.pth'
         pretrain_checkpoint = torch.load(pretrain_checkpoint_path, map_location='cpu')
-
-# '/root/wp/action/results/20220607/ntu_models/ntu_xsub_contrastive_hidden256_layer2_bsz32_lr0.05_epoch60_moment0.999_k64_temp0.1/epoch59state.pth'
-# '/root/wp/action/results/20220607/ntu_models/ntu_xsub_reconstruct_hidden256_layer2_lr0.05_bsz32_epoch60/epoch59state.pth'
-# '/root/wp/action/results/20220607/ntu_models/ntu_xsub_teach_stud_hidden256_layer2_lr0.05_bsz32_epoch60_lambda_ts0.05/epoch59state.pth'
 
     encoder_pretrain = pretrain_checkpoint['encoder']
     arguments_pretrain = pretrain_checkpoint['opt']
