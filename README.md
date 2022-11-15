@@ -8,7 +8,7 @@ Implementation for **Contrast-Reconstruction Representation Learning for Self-Su
 
 
 ## Requirements
-Python 3.6+
+Python 3.6+ \n
 Pytorch 1.2+
 Torchvision 0.4+
 networkx 2.5
