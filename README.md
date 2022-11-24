@@ -1,5 +1,5 @@
 # CRRL
-Implementation for **Contrast-Reconstruction Representation Learning for Self-Supervised Skeleton-Based Action Recognition**.
+Implementation for [**Contrast-Reconstruction Representation Learning for Self-Supervised Skeleton-Based Action Recognition**](https://ieeexplore.ieee.org/document/9901454).
 
 
 ## Network Architecture
